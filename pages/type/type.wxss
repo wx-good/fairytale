@@ -1,0 +1,24 @@
+/* pages/type/type.wxss */
+.view{
+  width: 128px;
+  height: 50px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+  background: #fef058;
+
+}
+.box{
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 35px
+  
+
+
+}

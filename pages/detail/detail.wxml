@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view>
+<text>{{detail.content}}</text>
+
+
+
+
+</view>

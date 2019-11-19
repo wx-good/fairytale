@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/type/type",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/my/my",
+    
+    
+    
+    
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#f2301c",
+    "list": [
+     
+      {
+        "pagePath": "pages/type/type",
+        "text": "童话分类",
+        "iconPath": "./logo/sort.png",
+        "selectedIconPath": "./logo/sortFull.png"
+      },
+     
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./logo/my.png",
+        "selectedIconPath": "./logo/myFull.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

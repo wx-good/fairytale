@@ -1,0 +1,15 @@
+<view>
+  <view class="list" wx:if="{{onoff}}">
+    <button open-type='getUserInfo' bindgetuserinfo='getuserinfo'>登录</button>
+  </view>
+  <view wx:else>
+    <view wx:for="{{storys}}" class="list" bindtap="goToDetail" data-id="{{item.id}}" data-title="{{item.title}}">
+      <image src="../../logo/001.jpg"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+
+
+
+
+</view>

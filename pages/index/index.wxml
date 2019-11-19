@@ -1,0 +1,22 @@
+<swiper indicator-dots="true" autoplay="true" interval="1000"circular="true">
+
+  <swiper-item>
+    <image src="../../logo/001.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../logo/002.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../logo/001.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../logo/002.jpg"></image>
+  </swiper-item>
+
+  
+</swiper>
+<view class="time">
+    <text>{{number}}</text>
+    <text>跳过广告</text>
+  </view>
+<view class="index_title" style="color:{{msg}}">欢迎来到童话故事</view>

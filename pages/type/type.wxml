@@ -1,0 +1,6 @@
+<!--pages/type/type.wxml-->
+<view class="box">
+  <view  wx:for="{{storylist}}" class="view" style="background:{{msg}};border-color:{{msgs}}" bindtap="list" data-classifyId="{{item.classifyId}}" data-classify="{{item.classify}}" >
+    <text>{{item.classify}}</text>
+  </view>
+</view>

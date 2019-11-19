@@ -1,0 +1,35 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view class="user" wx:if="{{nickName}}">
+    {{nickName}}
+  </view>
+  <view class="user" wx:else>
+    未登陆
+  </view>
+  <view class="center">
+    <view wx:for="{{list}}" class="list" bindtap="detail" data-id="{{item.id}}" data-title="{{item.title}}">
+      <image src="../../logo/001.jpg"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+
+<view class="s">
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
